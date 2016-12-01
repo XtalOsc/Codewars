@@ -63,3 +63,20 @@ result="";
   var reverse = result.split("").reverse().join("");
   return reverse;
 }//end playPass function
+
+// Testing playPass function. Expected return in comments.
+playPass("I LOVE YOU!!!", 1)  //"!!!vPz fWpM J"
+playPass("I LOVE YOU!!!", 0)  //"!!!uOy eVoL I"
+playPass("AAABBCCY", 1)  //"zDdCcBbB"
+playPass("MY GRANMA CAME FROM NY ON THE 23RD OF APRIL 2015", 2)  //"4897 NkTrC Hq fT67 GjV Pq aP OqTh gOcE CoPcTi aO"
+playPass("TO BE HONEST WITH YOU I DON'T USE THIS TEXT TOOL TOO OFTEN BUT HEY... MAYBE YOUR NEEDS ARE DIFFERENT.", 5)  //".ySjWjKkNi jWf xIjJs wZtD JgDfR ...dJm yZg sJyKt tTy qTtY YcJy xNmY JxZ Y'StI N ZtD MyNb yXjStM Jg tY"
+playPass("IN 2012 TWO CAMBRIDGE UNIVERSITY RESEARCHERS ANALYSED PASSPHRASES FROM THE AMAZON PAY SYSTEM...", 20)  //"...gYnMsM SuJ HiTuGu yBn gIlZ MyMuLbJmMuJ XyMsFuHu mLyBwLuYmYl sNcMlYpChO YaXcLvGuW IqN 7897 hC"
+playPass("IN 2012 TWO CAMBRIDGE UNIVERSITY RESEARCHERS ANALYSED PASSPHRASES FROM THE AMAZON PAY SYSTEM...", 10)  //"...wOdCiC IkZ XyJkWk oRd wYbP CoCkBrZcCkZ NoCiVkXk cBoRmBkOcOb iDsCbOfSxE OqNsBlWkM YgD 7897 xS"
+playPass("1ONE2TWO3THREE4FOUR5FIVE6SIX7SEVEN8EIGHT9NINE", 5)   //"JsNs0yMlNj1sJaJx2cNx3jAnK4WzTk5jJwMy6tBy7jSt8"
+playPass("AZ12345678ZA", 1)  //"bA12345678aB"
+playPass("!!!VPZ FWPM J", 25)  //"I LoVe yOu!!!"
+playPass("BOY! YOU WANTED TO SEE HIM? IT'S YOUR FATHER:-)", 15)  //")-:gTwIpU GjDn h'iX ?bXw tTh dI StIcPl jDn !NdQ"
+playPass("FOR THIS REASON IT IS RECOMMENDED THAT PASSPHRASES NOT BE REUSED ACROSS DIFFERENT OR UNIQUE SITES AND SERVICES.", 15)  //".hTrXkGtH ScP HtIxH TjFxCj gD IcTgTuUxS HhDgRp sThJtG Tq iDc hThPgWeHhPe iPwI StScTbBdRtG Hx iX CdHpTg hXwI GdU"
+playPass("ONCE UPON A TIME YOU DRESSED SO FINE (1968)", 12)  //")1308( qZuR Ae pQeEqDp gAk qYuF M ZaBg qOzA"
+playPass("AH, YOU'VE GONE TO THE FINEST SCHOOL ALL RIGHT, MISS LONELY", 12)  //"KxQzAx eEuY ,fTsUd xXm xAaToE FeQzUr qTf aF QzAs qH'GaK ,tM"
+playPass("THE SPECIES, NAMED AFTER THE GREEK GOD OF THE UNDERWORLD, LIVES SOME 3,600 FEET UNDERGROUND.", 8)  //".LvCwZoZmLvC BmMn 993,6 mUwA AmDqT ,lTzWeZmLvC MpB Nw lWo sMmZo mPb zMbNi lMuIv ,AmQkMxA MpB"
